@@ -1,0 +1,16 @@
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio_aula_1.Form1.resources
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.AssemblyInfo.cs
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.exe
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.deps.json
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.runtimeconfig.json
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.dll
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\bin\Debug\netcoreapp3.1\Desafio aula 1.pdb
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.dll
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.pdb
+C:\Users\DELL\Desktop\DS\Desafio aula 1\Desafio aula 1\obj\Debug\netcoreapp3.1\Desafio aula 1.genruntimeconfig.cache
