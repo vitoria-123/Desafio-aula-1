@@ -24,28 +24,85 @@ namespace Desafio_aula_1
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double n1, n2, soma;
-            if (txtNumero1.Text == string.Empty){
+            double n1, n2, soma, sub, mult, div;
+            if (txtNumero1.Text == string.Empty && txtNumero2.Text == string.Empty && txtOperacao.Text == string.Empty)
+            {
+                MessageBox.Show("As caixas estão em branco");
+            }
+            else if (txtNumero1.Text == string.Empty)
+            {
                 MessageBox.Show("Texto em branco na 1 caixa");
+            }
+            else if (txtNumero2.Text == string.Empty)
+            {
+                MessageBox.Show("Texto em branco na 2 caixa");
+            }
+            else if (txtOperacao.Text == string.Empty)
+            {
+                MessageBox.Show("Qual operação você gostaria de realizar?");
             }
             else
             {
-                if (txtNumero2.Text == string.Empty)
+                if (txtOperacao.Text == "+")
                 {
-                    MessageBox.Show("Texto em branco na 2 caixa");
+                    n1 = Convert.ToDouble(txtNumero1.Text);
+                    n2 = Convert.ToDouble(txtNumero2.Text);
+                    soma = n1 + n2;
+                    txtResultado.Text = Convert.ToString(soma);
+                }
+                else if (txtOperacao.Text == "-")
+                {
+                    n1 = Convert.ToDouble(txtNumero1.Text);
+                    n2 = Convert.ToDouble(txtNumero2.Text);
+                    sub = n1 - n2;
+                    txtResultado.Text = Convert.ToString(sub);
+                }
+                else if (txtOperacao.Text == "*" || txtOperacao.Text == "x" || txtOperacao.Text == "X" || txtOperacao.Text == ".")
+                {
+                    n1 = Convert.ToDouble(txtNumero1.Text);
+                    n2 = Convert.ToDouble(txtNumero2.Text);
+                    mult = n1 * n2;
+                    txtResultado.Text = Convert.ToString(mult);
+                }
+                else if (txtOperacao.Text == "/")
+                {
+                    if (txtNumero2.Text == "0")
+                    {
+                        MessageBox.Show("Não existe divisão por zero");
+                        txtNumero2.Text = string.Empty;
+                    }
+                    else
+                    {
+                        n1 = Convert.ToDouble(txtNumero1.Text);
+                        n2 = Convert.ToDouble(txtNumero2.Text);
+                        div = n1 / n2;
+                        txtResultado.Text = Convert.ToString(div);
+                    }
+                }
+                else if (txtOperacao.Text == "%")
+                {
+                    int nu1, nu2, mod;
+                    nu1 = Convert.ToInt16(txtNumero1.Text);
+                    nu2 = Convert.ToInt16(txtNumero2.Text);
+                    mod = nu1 % nu2;
+                    txtResultado.Text = Convert.ToString(mod);
+                }
+                else
+                {
+                    MessageBox.Show("Digite uma operação válida");
+                    txtOperacao.Focus();
+                    txtOperacao.Text = string.Empty;
                 }
             }
-            n1 = Convert.ToDouble(txtNumero1.Text);
-            n2 = Convert.ToDouble(txtNumero2.Text);
-            soma = n1 + n2;
-            txtSoma.Text = Convert.ToString(soma);
         }
+    
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             txtNumero1.Text = string.Empty;
             txtNumero2.Text = string.Empty;
-            txtSoma.Text = string.Empty;
+            txtResultado.Text = string.Empty;
+            txtNumero1.Focus();
         }
     }
 }
